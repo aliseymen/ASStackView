@@ -1,0 +1,6 @@
+framework module ASStackView {
+  umbrella header "ASStackView-umbrella.h"
+
+  export *
+  module * { export * }
+}

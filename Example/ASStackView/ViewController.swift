@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import ASStackView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var stackView: ASStackView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        var arr : [ExampleView] = []
+        for index in 0...10
+        {
+            let v = ExampleView()
+            v.title = "View \(index)"
+            arr.append(v)
+        }
+        
+        stackView.views = arr
+        stackView.pageChanged = { index in
+            print("\(index)")
+        }
     }
 
     override func didReceiveMemoryWarning() {
