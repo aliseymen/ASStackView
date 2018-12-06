@@ -22,7 +22,7 @@ pod 'ASStackView'
 
 ## Author
 
-Ali Seymen, ali.seymen@matriksdata.com
+Ali Seymen, seymenali@gmail.com
 
 ## License
 
