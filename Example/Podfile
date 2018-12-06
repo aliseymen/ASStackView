@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASStackView_Example' do
+  pod 'ASStackView', :path => '../'
+
+  target 'ASStackView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
