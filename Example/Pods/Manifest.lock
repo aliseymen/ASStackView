@@ -1,5 +1,5 @@
 PODS:
-  - ASStackView (0.1.0)
+  - ASStackView (0.0.1)
 
 DEPENDENCIES:
   - ASStackView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ASStackView: 9b6ed6c965b0425e59178aec91d4d94cd8c76642
+  ASStackView: 30139161b5b1b5774333ce9f16bcb95f64126af2
 
 PODFILE CHECKSUM: b9ae37b1ba1ffd14c48cfdfa294bb5c12f3a0e47
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
